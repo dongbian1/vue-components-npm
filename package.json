@@ -18,7 +18,7 @@
     "vue": "^3.2.45"
   },
   "lint-staged": {
-    "src/*": "eslint --fix"
+    "src/*": "npm run lint"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
