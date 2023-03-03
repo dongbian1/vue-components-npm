@@ -18,7 +18,8 @@
     "vue": "^3.2.45"
   },
   "lint-staged": {
-    "src/*": "npm run lint"
+    "src/*": "npm run lint",
+    "*.{js,json,cjs}": "prettier --write"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
