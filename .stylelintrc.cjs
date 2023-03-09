@@ -1,8 +1,10 @@
 module.exports = {
   // 注册 stylelint 的 prettier 插件
   plugins: ['stylelint-prettier'],
+  customSyntax: 'postcss-html',
   // 继承一系列规则集合
   extends: [
+    'stylelint-config-standard-vue',
     // standard 规则集合
     'stylelint-config-standard',
     // standard 规则集合的 scss 版本
